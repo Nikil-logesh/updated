@@ -23,6 +23,26 @@
         <div id="unity-build-title">My project</div>
       </div>
     </div>
+    
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+<script src="https: //www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-functions.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+<script>
+    var firebaseConfig = {
+  apiKey: "AIzaSyA5RR6pt63VHR_TMO15p1j18owJc6r3alU",
+  authDomain: "prjj-555a0.firebaseapp.com",
+  databaseURL: "https://prjj-555a0-default-rtdb.firebaseio.com",
+  projectId: "prjj-555a0",
+  storageBucket: "prjj-555a0.firebasestorage.app",
+  messagingSenderId: "839028148157",
+  appId: "1:839028148157:web:ee3c1e63c01f0a1cecf4d4"
+};
+  firebase.initializeApp(firebaseConfig);
+</script>
+
     <script>
       var canvas = document.querySelector("#unity-canvas");
 
@@ -123,22 +143,6 @@
       document.body.appendChild(script);
 
     </script>
-    <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
-  
-  const firebaseConfig = {
-    apiKey: "AIzaSyA5RR6pt63VHR_TMO15p1j18owJc6r3alU",
-    authDomain: "prjj-555a0.firebaseapp.com",
-    databaseURL: "https://prjj-555a0-default-rtdb.firebaseio.com",
-    projectId: "prjj-555a0",
-    storageBucket: "prjj-555a0.firebasestorage.app",
-    messagingSenderId: "839028148157",
-    appId: "1:839028148157:web:c0e88f2bbe590d31ecf4d4"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-</script>
+   
   </body>
 </html>
